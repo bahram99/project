@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="store.js"></script>
+<title>welcome</title>
+</head>
+
+ <body>
+
+        <form name="form" method="GET">
+            please enter username : <input type="text" name="user" onkeypress="check()"></br>
+            enter password : <input type="password" name="pass"></br>
+            <button type="button" value="login" onclick="form.action='store.html';form.submit()">click for login </button>
+            <button type="button" value="register" onclick="form.action='newproject.html';form.submit()">click me </button>
+            
+        </form>
+
+        <form name="form2">
+            <input type="text" name="tex">
+
+        </form>
+        <a href="#" onmouseover="getnumber(1)">google</a><br>
+        <a href="#" onmouseover="getnumber(2)">yjc</a><br>
+
+         counter<input type="text" name="counter"><br><br><br>
+        <button name="sayhello" onclick="hello()">HELLO</button>
+        <p id="33"></p>
+
+
+        
+     
+ </body>
+</html>
