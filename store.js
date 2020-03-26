@@ -1,3 +1,6 @@
+confirm("welcome to mysite")
+
+
 document.write("<strong> welcome to crono day )): </strong><br> ")
 document.write("<u> salam agha </u><br>")
 
@@ -39,10 +42,13 @@ function check()
     }
 }
 
-var a =1;
+//var a =1;
 function hello()
 {
+    window.alert('test')     
+}
 
-    document.counter.value=a++;
-    window.setTimeout("hello()",2000)    
+function color()
+{
+    document.getElementById(12).style.backgroundColor="yellow"
 }
