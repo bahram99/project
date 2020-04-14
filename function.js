@@ -17,7 +17,16 @@ function x()
     document.write(arr[arr.length-1])     
 
     //create FORM   
-
-
 }
-window
+//===================================================
+let esm = (first,last) =>
+{   return{
+        first:first,
+        last:last,
+        fullName : function() {
+            return this.first + ' ' + this.last
+}
+};
+};
+var ss = esm('ali','testi');
+console.log(ss.fullName());
